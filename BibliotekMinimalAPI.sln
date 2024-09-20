@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotekMinimalAPI", "BibliotekMinimalAPI\BibliotekMinimalAPI.csproj", "{9012D5D1-259E-48AC-8BE8-7096CBC7ECC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotekFrontend", "BibliotekFrontend\BibliotekFrontend.csproj", "{6C4F0F40-901E-4EBD-9581-54367F2BF161}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9012D5D1-259E-48AC-8BE8-7096CBC7ECC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9012D5D1-259E-48AC-8BE8-7096CBC7ECC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9012D5D1-259E-48AC-8BE8-7096CBC7ECC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9012D5D1-259E-48AC-8BE8-7096CBC7ECC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C4F0F40-901E-4EBD-9581-54367F2BF161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4F0F40-901E-4EBD-9581-54367F2BF161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4F0F40-901E-4EBD-9581-54367F2BF161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4F0F40-901E-4EBD-9581-54367F2BF161}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2ECC587F-A8FC-46C3-B697-305A472ACC7B}
+	EndGlobalSection
+EndGlobal
