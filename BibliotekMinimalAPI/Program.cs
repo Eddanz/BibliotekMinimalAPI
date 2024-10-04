@@ -30,6 +30,12 @@ namespace BibliotekMinimalAPI
 
             builder.Services.AddScoped<IBookRepository, BookRepository>();
 
+            //Angular provider
+            builder.Services.AddCors((setup) => setup.AddPolicy("default", (options) =>
+            {
+                options.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
+            }));
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -38,6 +44,8 @@ namespace BibliotekMinimalAPI
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+
+            app.UseCors("default");
 
             app.UseHttpsRedirection();
 

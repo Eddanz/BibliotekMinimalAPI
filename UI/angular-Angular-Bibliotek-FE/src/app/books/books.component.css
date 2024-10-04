@@ -1,0 +1,28 @@
+/* Ensure the background of the container is dark */
+.container {
+    background-color: #343a40; /* Bootstrap dark background color */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Ensure the text inside the card is light */
+  .card-body {
+    color: #f8f9fa; /* Bootstrap light text color */
+  }
+  
+  /* Ensure the text-muted class is overridden for dark mode */
+  .text-muted {
+    color: #6c757d !important; /* Bootstrap muted text color for dark mode */
+  }
+
+  /* src/app/books/books.component.css */
+.book-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .book-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }

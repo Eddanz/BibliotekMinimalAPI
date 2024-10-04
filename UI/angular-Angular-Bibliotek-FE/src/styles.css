@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+/* Ensure the background of the entire application is dark */
+body.bg-dark {
+    background-color: #343a40; /* Bootstrap dark background color */
+    color: #f8f9fa; /* Bootstrap light text color */
+  }
+  
+  /* Ensure the text-muted class is overridden for dark mode */
+  .text-muted {
+    color: #6c757d !important; /* Bootstrap muted text color for dark mode */
+  }
+  
+  /* Ensure links are styled appropriately for dark mode */
+  a {
+    color: #f8f9fa;
+  }
+  
+  a:hover {
+    color: #adb5bd;
+  }

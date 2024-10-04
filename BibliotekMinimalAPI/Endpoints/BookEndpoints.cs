@@ -13,7 +13,7 @@ namespace BibliotekMinimalAPI.Endpoints
     {
         public static void ConfigurationBookEndpoints(this WebApplication app)
         {
-            app.MapGet("/api/books", GetAllBooks)
+            app.MapGet("/api/book", GetAllBooks)
                 .WithName("GetBooks")
                 .Produces<APIResponse>();
 

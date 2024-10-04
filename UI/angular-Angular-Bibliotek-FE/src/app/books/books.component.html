@@ -1,0 +1,26 @@
+
+<div class="container mt-5 text-light">
+    <h1 class="text-center mb-4">All our books</h1>
+    <div class="row">
+      <div *ngFor="let book of books" class="col-md-4 mb-4">
+        <div class="card h-100 bg-dark text-light book-card" (click)="onBookClick(book.id)">
+          <div class="card-body">
+            <h5 class="card-title">{{ book.title }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">by {{ book.author }}</h6>
+            <p class="card-text"><strong>Genre:</strong> {{ book.genre }}</p>
+            <p class="card-text">{{ book.description }}</p>
+            <p class="card-text"><strong>Published:</strong> {{ book.publishingYear }}</p>
+            <p class="card-text">
+                <strong>Available:</strong> 
+                <span *ngIf="book.isAvailable" class="text-success">
+                  <i class="fas fa-check-circle ms-2"></i> Yes
+                </span>
+                <span *ngIf="!book.isAvailable" class="text-danger">
+                  <i class="fas fa-times-circle ms-2"></i> No
+                </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

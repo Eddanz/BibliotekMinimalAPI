@@ -1,0 +1,8 @@
+.custom-card-header {
+    border-bottom: 3px solid #343a40; /* Thicker bottom border for card-header */
+  }
+  
+  .custom-card {
+    border: 3px solid #343a40; /* Thicker border for the entire card */
+    border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
+  }

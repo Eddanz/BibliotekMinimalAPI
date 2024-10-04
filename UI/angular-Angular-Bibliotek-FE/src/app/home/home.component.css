@@ -1,0 +1,17 @@
+.home-container {
+    background-image: url('https://images.wallpaperscraft.com/image/single/books_library_shelves_138556_2560x1440.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background to make text more readable */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+  }
